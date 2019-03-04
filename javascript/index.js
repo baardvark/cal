@@ -7,12 +7,14 @@ var cartContainer = document.getElementById("cart");
 var itemButtons = document.getElementsByClassName("item-button");
 var showCartButton = document.getElementById("show-cart-button");
 
+// Adds the click event on all buttons
 for(var i = 0; i < itemButtons.length; i++) {
   itemButtons[i].addEventListener("click", function () {    
     cart.push(this.parentElement.children[0].innerText);
   })
 }
 
+// Show cart button click event
 showCartButton.addEventListener("click", function() {
   // This removes all items so they don't duplicate on click
   while (cartContainer.firstChild) {
