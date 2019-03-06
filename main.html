@@ -1,103 +1,31 @@
 <html>
-  <head>
-    <title>Shopping Cart</title>
-    <link rel="stylesheet" type="text/css" href="./styles/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
-
-  <body>
-    <nav class="teal lighten-1">
-      <div class="nav-wrapper">
-        <a href="main.html" class="brand-logo">Shopping Cart Challenge</a>
-      </div>
-    </nav>
-    <div class="">
-      <div class="row">
-        <div class="col s12 m6 l6">
-          <h1>Items</h1>
-          <br />
-          <div class="row">
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">T-Shirt</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Necklace</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Shoes</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Backpack</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Hat</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Watch</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Purse</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-            <div class="col s12 m5">
-              <div class="card-panel blue indigo darken-4">
-                <span class="white-text">Belt</span>                
-                <button class="btn-small waves-effect waves-light green item-button">
-                  <i class="material-icons">add_shopping_cart</i>
-                </button>
-              </div>
-            </div>
-          </div>
+    <head>
+        <link rel="stylesheet" href="styles/main.css" />
+    </head>
+    <body>
+            <h1>My Calculator</h1>
+        <div id="calc">
+            <div id="output"></div>
+            <button class="function">AC</button>
+            <button class="function">+/-</button>
+            <button class="function">%</button>
+            <button class="action">/</button>
+            <button class="num-btn" id='7'>7</button>
+            <button class="num-btn" id='8'>8</button>
+            <button class="num-btn" id='9'>9</button>
+            <button class="action">*</button>
+            <button class="num-btn" id='4'>4</button>
+            <button class="num-btn" id='5'>5</button>
+            <button class="num-btn" id='6'>6</button>
+            <button class="action">-</button>
+            <button class="num-btn" id='1'>1</button>
+            <button class="num-btn" id='2'>2</button>
+            <button class="num-btn" id='3'>3</button>
+            <button class="action">+</button>
+            <button class="num-btn" id="zero">0</button>
+            <button>.</button>
+            <button class="action" id="result">=</button>
         </div>
-        <div class="col s12 m6 l6">
-          <h1>Cart</h1>
-          <button class="btn" id="show-cart-button">Show Cart Items</button>
-          <div id="cart">
-
-
-            <!--  List Cart Items Here  -->
-
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="./javascript/index.js"></script>
-  </body>
+        <script src="index.js"></script>
+    </body>
 </html>
